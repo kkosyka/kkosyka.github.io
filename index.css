@@ -1,0 +1,244 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  overflow-x: hidden;
+  font-family: "Futura-CondensedExtraBold", sans-serif;
+  background: #262729;
+  color: #FFF;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6{
+  position: relative;
+  /*opacity: 0.;*/
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  height:700px;
+  margin:auto;
+  padding:0;
+}
+.bgimg-1 {
+  background-image: url("images/laundryReflection.jpg");
+  min-width: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("images/moonWires.jpg");
+  min-width: 100%;
+}
+
+.bgimg-3 {
+  background-image: url("images/flowers.jpg");
+  min-width: 100%;
+  /*min-height: 200px;*/
+}
+
+.bgimg-4 {
+  background-image: url("images/airBalloon.jpg");
+  min-width: 100%;
+}
+
+.bgimg-5 {
+  background-image: url("images/bikeShop.jpg");
+  min-width: 100%;
+}
+
+.bgimg-6 {
+  background-image: url("images/yellowBikeRide.jpg");
+  min-width: 100%;
+  /*min-height: 200px;*/
+}
+
+.caption {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  left: 0px;
+  margin: 20px 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #FFF;
+}
+
+/*.caption span.border {
+  position: relative;
+  background-color: #262729;
+  color: #FFF;
+  padding: 15px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}*/
+h1{
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: 'Special Elite', cursive;
+  color: #262729;
+
+}
+
+.downButton{
+  font-size: 40px;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
+        background-attachment: scroll;
+    }
+}
+p{
+  margin: 20px 150px;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+}
+
+#header {
+  /*font-family: 'Special Elite', cursive;*/
+  font-family: "Futura-CondensedExtraBold", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    left: 15px;
+    top: 10px;
+    position: fixed;
+    z-index: 1;
+}
+
+
+#greeting{
+  font-size: 20vh;
+}
+
+#footer{
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  /*right:10px;*/
+  bottom: -85%;
+  letter-spacing: 8px;
+}
+
+
+a { text-decoration : none; color : #FFF; }
+a:hover { color: rgba(255, 0, 0, 1);}
+
+.toggle {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.61);
+  -webkit-transition: all 0.30s ease-out 0;
+  -moz-transition: all 0.30s ease-out 0;
+  transition: all 0.45s ease-out 0;
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  z-index: 1;
+  cursor: pointer;
+}
+.sidebar {
+  font-size: 30px;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  bottom: 0px;
+  right: -200px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  width: 200px;
+  background: #262729; 
+  z-index: 1;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+}
+
+.sidebar li a {
+  color: white;
+  position: relative;
+
+  top: 100px;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 200%;
+}
+
+.sidebar a:hover { color: rgba(255, 0, 0, 1);}
+
+#slide:checked + .container .sidebar {right: 0px;}
+
+#slide:checked + .toggle {right: 0px;}
+
+.container a.visited{
+  display:none;
+
+}
+#slide:checked + .container .toggle {
+  right: 15px;
+  z-index: 2;
+}
+#slide {display: none; }
+/*
+/*INDEX PAGE*/
+/*#index-page {
+    background-image: url("images/laundryReflection.jpg");
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+    background-color: #262729;
+    font-family: 'Special Elite', cursive;
+    font-size: 140px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 1200px;
+    height:700px;
+    position: relative;
+}*/
+
+
+/*#index-page h1 {
+  font-family: 'Special Elite', cursive;
+    font-size: 40px;
+    text-align: left;
+    top:-20px;
+
+    position: absolute;
+}*/
+
+/*.greeting{
+  position: absolute;
+  font-size: 120px;
+  position:fixed;
+    text-align: center;
+  top: 60%;
+  transform: translateY(-70%); 
+    width:80%;
+    margin-left: -37.5%;
+    left:50%;
+}*/
+
+
+
+* {margin: 0; padding: 0;}
+ 
+
+ 
+#test {
+  width: 1000px;
+  overflow: hidden;
+  margin: 50px auto;
+  background: white;
+}

@@ -1,0 +1,55 @@
+<html>
+ <body onload="draw();">
+   <canvas id="canvas" width="400" height="400">hi</canvas>
+ </body>
+
+
+<script>
+function draw() {
+  var canvas = document.getElementById('canvas');
+  if (canvas.getContext) {
+    var ctx = canvas.getContext('2d');
+    for (var i = 0; i < 8; i++) {
+      for (var j = 0; j < 8; j++) {
+        ctx.beginPath();
+        var x = getRandomArbitrary(0, 400); // x coordinate
+        var y = getRandomArbitrary(0, 400); // y coordinate
+        var radius = getRandomArbitrary(10, 100);; // Arc radius
+        ctx.arc(x,y,radius,0,2*Math.PI);
+        ctx.stroke();
+      }
+    }
+    for (var i = 0; i < 8; i++) {
+      for (var j = 0; j < 8; j++) {
+        ctx.beginPath();
+        var x = getRandomArbitrary(0, 400); // x coordinate
+        var y = getRandomArbitrary(0, 400); // y coordinate
+        var radius = getRandomArbitrary(10, 100);; // Arc radius
+        ctx.arc(x,y,radius,0,2*Math.PI);
+        ctx.strokeStyle="#A9A9A9";
+        ctx.stroke();
+      }
+    }
+    for (var i = 0; i < 5; i++) {
+      for (var j = 0; j < 3; j++) {
+        ctx.beginPath();
+        var x = getRandomArbitrary(0, 400); // x coordinate
+        var y = getRandomArbitrary(0, 400); // y coordinate
+        var radius = getRandomArbitrary(10, 100);; // Arc radius
+        ctx.arc(x,y,radius,0,2*Math.PI);
+        ctx.strokeStyle="#C80000";
+        ctx.stroke();
+      }
+    }
+  }
+}
+function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
+}
+</script>
+</html>
+
+
+
+
+

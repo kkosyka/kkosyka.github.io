@@ -1,0 +1,221 @@
+/*GLOBAL*/
+html { overflow-y: hidden; color: white;}
+html,body { height: 100%;}
+
+.header {
+	font-family: "Futura-CondensedExtraBold", sans-serif;
+    font-size: 40px;
+    text-align: left;
+    top:-20px;
+    left: 15px;
+    position: absolute;
+    z-index: 1;
+}
+.greeting{
+	font-size: 100px;
+}
+.footer{
+	font-size: 25px;
+	position: relative;
+	right:-40%;
+	bottom: -90%;
+}
+
+
+a { text-decoration : none; color : #FFF; }
+body{
+	background: #262729; 
+	margin-left: auto;
+    margin-right: auto;	
+    width: 900px;
+    overflow: hidden;
+}
+.toggle {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.61);
+	-webkit-transition: all 0.30s ease-out 0;
+	-moz-transition: all 0.30s ease-out 0;
+	transition: all 0.45s ease-out 0;
+	position: fixed;
+	top: 15px;
+	right: 25px;
+	z-index: 1;
+	cursor: pointer;
+}
+.sidebar {
+	font-size: 30px;
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	bottom: 0px;
+	right: -200px;
+	-webkit-transition: all 0.15s ease-out 0;
+	-moz-transition: all 0.15s ease-out 0;
+	width: 200px;
+	background: #262729; 
+	z-index: 1;
+}
+
+.sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0; 
+}
+
+.sidebar li a {
+	color: white;
+	position: relative;
+
+	top: 100px;
+	/*margin-bottom: 2px;*/
+	cursor: pointer;
+	text-decoration: none;
+	line-height: 200%;
+}
+
+.sidebar a:hover { color: rgba(255, 0, 0, 1);}
+
+#slide:checked + .container .sidebar {right: 0px;}
+
+#slide:checked + .toggle {right: 0px;}
+
+#slide:checked + .container .toggle {
+	right: 15px;
+	z-index: 2;
+}
+#slide {display: none; }
+
+/*INDEX PAGE*/
+#index-page {
+    background-image: url("images/laundryReflection.jpg");
+	background-size: cover; /* or contain depending on what you want */
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align:center;
+	margin:auto;
+	padding:0;
+    background-color: #262729;
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    font-size: 140px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 1200px;
+  	height:700px;
+  	position: relative;
+}
+
+
+#index-page h1 {
+	font-family: "Futura-CondensedExtraBold", sans-serif;
+    font-size: 40px;
+    text-align: left;
+    top:-20px;
+    /*left: -29px;*/
+    position: absolute;
+}
+
+.greeting{
+	position: absolute;
+	font-size: 120px;
+	position:fixed;
+    text-align: center;
+	top: 60%;
+	transform: translateY(-70%); 
+    width:80%;
+    margin-left: -37.5%;
+    left:50%;
+}
+/*ABOUT*/
+#about-page .header{
+	position: relative;
+	left: 47px;
+}
+.aboutMe .bikeImg{
+	position: absolute;
+	top: 60px;
+	transform: translateY(0%); 
+	width: 43%;
+	float: left;
+	z-index: 0;
+}
+.aboutMe .bio{
+	color: white;
+	position: absolute;
+	text-align: left;
+	margin:auto;
+	left: 45%;
+	padding:40px;
+	font-family: "Oxygen",  sans-serif;
+	font-size: 15px;
+}
+/*RESUME*/
+/*PROJECTS*/
+#projects-page {
+    background-image: url("images/fade.jpg");
+	background-size: cover; /* or contain depending on what you want */
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align:center;
+	margin:auto;
+	padding:0;
+    background-color: #262729;
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    font-size: 140px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 1200px;
+  	height:700px;
+  	position: relative;
+}
+#projects-page h1{
+	/*left: -29px;*/
+}
+
+.listProj{
+	overflow-y: hidden;
+	position: relative;
+	font-family: "Oxygen", sans-serif;
+	font-size: 20px;
+	top: 25%;
+	left: -25%;
+}
+
+#projects-page .allProjects {
+	position: relative;
+	top: 75%;
+
+}
+#projects-page .allProjects .title{
+	font-family: "Oxygen", sans-serif;
+	font-size: 35px;
+
+}
+
+#projects-page .allProjects .date{
+	font-family: "Oxygen", sans-serif;
+	font-size: 20px;
+	
+}
+
+#projects-page .allProjects .lang{
+	font-family: "Oxygen", sans-serif;
+	font-size: 20px;
+	
+}
+
+#projects-page .allProjects .description{
+	font-family: "Oxygen", sans-serif;
+	font-size: 20px;
+	
+}
+/*PICTURES*/
+/*OTHER*/
+/*CONTACT*/
+
+
+
+
+
+
