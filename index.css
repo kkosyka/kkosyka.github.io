@@ -10,7 +10,7 @@ body, html {
   color: #FFF;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6{
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8{
   position: relative;
   /*opacity: 0.;*/
   background-attachment: fixed;
@@ -54,6 +54,18 @@ body, html {
   /*min-height: 200px;*/
 }
 
+.bgimg-7 {
+  background-image: url("images/cars.jpg");
+  min-width: 100%;
+  /*min-height: 200px;*/
+}
+
+.bgimg-8 {
+  background-image: url("images/roadTrip.jpg");
+  min-width: 100%;
+  /*min-height: 200px;*/
+}
+
 .caption {
   position: absolute;
   top: 40%;
@@ -90,7 +102,7 @@ h3 {
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8 {
         background-attachment: scroll;
     }
 }
