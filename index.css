@@ -140,7 +140,7 @@ p{
 
 
 a { text-decoration : none; color : #FFF; }
-a:hover { color: rgba(255, 0, 0, 1);}
+a:hover { color: rgba(128, 0, 32, 1);}
 
 .toggle {
   text-decoration: none;
@@ -184,7 +184,7 @@ a:hover { color: rgba(255, 0, 0, 1);}
   line-height: 200%;
 }
 
-.sidebar a:hover { color: rgba(255, 0, 0, 1);}
+.sidebar a:hover { color: #800020;}
 
 #slide:checked + .container .sidebar {right: 0px;}
 
@@ -221,7 +221,11 @@ a:hover { color: rgba(255, 0, 0, 1);}
 }*/
 
 
-/*#index-page h1 {
+/*
+
+burgandy #800020
+
+#index-page h1 {
   font-family: 'Special Elite', cursive;
     font-size: 40px;
     text-align: left;
@@ -248,9 +252,3 @@ a:hover { color: rgba(255, 0, 0, 1);}
  
 
  
-#test {
-  width: 1000px;
-  overflow: hidden;
-  margin: 50px auto;
-  background: white;
-}
