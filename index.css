@@ -77,14 +77,14 @@ body, html {
   color: #FFF;
 }
 
-/*.caption span.border {
+span.border {
   position: relative;
-  background-color: #262729;
-  color: #FFF;
-  padding: 15px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}*/
+  background-color: #262729; 
+  /*color: #FFF;*/
+  padding: 0px;
+/*  font-size: 25px;
+  letter-spacing: 10px;*/
+}
 h1{
   font-size: 35px;
   letter-spacing: 5px;
