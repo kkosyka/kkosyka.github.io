@@ -1,150 +1,128 @@
-body, html {
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
+
+body,html{  
+	font-family: "Futura-CondensedExtraBold", sans-serif;
+	height: 100%;
+  margin: 0;
+  color: #777;
   text-align: center;
-  font-family: 'Special Elite', cursive;
-  overflow-x: hidden;
-  font-family: "Futura-CondensedExtraBold", sans-serif;
-  background: #262729;
-  color: #FFF;
+  background-color: #2e3031;
+}
+#header{
+	font-size: 40px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8{
+p{
+	margin: 30px 80px;
+  font-family: 'Crimson Text', serif;
+  color: #FFF;
+  font-size: 20px;
+}
+
+#footer{
+	font-size: 30px;
+	letter-spacing: 8px;
+}
+
+#greeting{
+	font-size: 100px;
+	color: #FFF;
+}
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8 {
   position: relative;
-  /*opacity: 0.;*/
+  opacity: 1;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1200px;
-  height:700px;
-  margin:auto;
-  padding:0;
+
+
 }
 .bgimg-1 {
-  background-image: url("images/laundryReflection.jpg");
-  min-width: 100%;
+  background-image: url("images/cars.jpg");
+  min-height: 105%;
 }
 
 .bgimg-2 {
-  background-image: url("images/moonWires.jpg");
-  min-width: 100%;
+  background-image: url("images/airBalloon.jpg");
+  min-height: 105%;
 }
 
 .bgimg-3 {
   background-image: url("images/flowers.jpg");
-  min-width: 100%;
-  /*min-height: 200px;*/
+  min-height: 105%;
 }
 
 .bgimg-4 {
-  background-image: url("images/airBalloon.jpg");
-  min-width: 100%;
+  background-image: url("images/houses.jpg");
+  min-height: 105%;
 }
 
 .bgimg-5 {
-  background-image: url("images/bikeShop.jpg");
-  min-width: 100%;
+  background-image: url("images/roadTrip.jpg");
+  min-height: 105%;
 }
 
 .bgimg-6 {
-  background-image: url("images/yellowBikeRide.jpg");
-  min-width: 100%;
-  /*min-height: 200px;*/
+  background-image: url("images/moonWires.jpg");
+  min-height: 105%;
 }
 
 .bgimg-7 {
-  background-image: url("images/cars.jpg");
-  min-width: 100%;
-  /*min-height: 200px;*/
+  background-image: url("images/yellowBikeRide.jpg");
+  min-height: 105%;
 }
-
 .bgimg-8 {
-  background-image: url("images/roadTrip.jpg");
-  min-width: 100%;
-  /*min-height: 200px;*/
+  background-image: url("images/laundryReflection.jpg");
+  min-height: 105%;
 }
-
 .caption {
   position: absolute;
+  left: 0;
   top: 40%;
   width: 100%;
-  left: 0px;
-  margin: 20px 20px;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   color: #FFF;
 }
 
-span.border {
-  position: relative;
-  background-color: #262729; 
-  /*color: #FFF;*/
-  padding: 0px;
-/*  font-size: 25px;
-  letter-spacing: 10px;*/
+.caption span.border {
+  background-color: #2e3031;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
-h1{
-  font-size: 35px;
-  letter-spacing: 5px;
+
+h2 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFF;
 }
-h3 {
+
+h1 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-family: 'Special Elite', cursive;
-  color: #262729;
-
+  font-size: 35px;
+  color: #FFF;
 }
 
-.downButton{
-  font-size: 40px;
-}
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8  {
         background-attachment: scroll;
     }
 }
-p{
-  margin: 20px 150px;
-  font-family: 'Crimson Text', serif;
-  font-size: 20px;
-}
-
-#header {
-  /*font-family: 'Special Elite', cursive;*/
-  font-family: "Futura-CondensedExtraBold", sans-serif;
-    font-size: 50px;
-    text-align: center;
-    left: 15px;
-    top: 10px;
-    position: fixed;
-    z-index: 1;
-}
-
-
-#greeting{
-  font-size: 20vh;
-}
-
-#footer{
-  font-family: 'Special Elite', cursive;
-  font-size: 40px;
-  position: relative;
-  text-align: center;
-  /*right:10px;*/
-  bottom: -85%;
-  letter-spacing: 8px;
-}
-
 
 a { text-decoration : none; color : #FFF; }
 a:hover { color: rgba(128, 0, 32, 1);}
 
 .toggle {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.61);
+  color: rgba(0, 0, 0, 1);
   -webkit-transition: all 0.30s ease-out 0;
   -moz-transition: all 0.30s ease-out 0;
   transition: all 0.45s ease-out 0;
@@ -164,7 +142,7 @@ a:hover { color: rgba(128, 0, 32, 1);}
   -webkit-transition: all 0.15s ease-out 0;
   -moz-transition: all 0.15s ease-out 0;
   width: 200px;
-  background: #262729; 
+  background: #2e3031; 
   z-index: 1;
 }
 
@@ -177,14 +155,13 @@ a:hover { color: rgba(128, 0, 32, 1);}
 .sidebar li a {
   color: white;
   position: relative;
-
   top: 100px;
   cursor: pointer;
   text-decoration: none;
   line-height: 200%;
 }
 
-.sidebar a:hover { color: #800020;}
+.sidebar a:hover { color: #A6193C;}
 
 #slide:checked + .container .sidebar {right: 0px;}
 
@@ -199,56 +176,4 @@ a:hover { color: rgba(128, 0, 32, 1);}
   z-index: 2;
 }
 #slide {display: none; }
-/*
-/*INDEX PAGE*/
-/*#index-page {
-    background-image: url("images/laundryReflection.jpg");
-  background-size: cover; 
-  background-position: center center;
-  background-repeat: no-repeat;
-  text-align:center;
-  margin:auto;
-  padding:0;
-    background-color: #262729;
-    font-family: 'Special Elite', cursive;
-    font-size: 140px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    width: 1200px;
-    height:700px;
-    position: relative;
-}*/
 
-
-/*
-
-burgandy #800020
-
-#index-page h1 {
-  font-family: 'Special Elite', cursive;
-    font-size: 40px;
-    text-align: left;
-    top:-20px;
-
-    position: absolute;
-}*/
-
-/*.greeting{
-  position: absolute;
-  font-size: 120px;
-  position:fixed;
-    text-align: center;
-  top: 60%;
-  transform: translateY(-70%); 
-    width:80%;
-    margin-left: -37.5%;
-    left:50%;
-}*/
-
-
-
-* {margin: 0; padding: 0;}
- 
-
- 
