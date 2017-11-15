@@ -22,13 +22,17 @@ p{
   font-size: 20px;
 }
 
+.downButton{
+	font-size:35px;
+}
+
 #footer{
 	font-size: 30px;
 	letter-spacing: 8px;
 }
 
 #greeting{
-	font-size: 100px;
+	font-size: 120px;
 	color: #FFF;
 }
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10, .bgimg-11,.bgimg-12 {
