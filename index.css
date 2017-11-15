@@ -137,7 +137,8 @@ h1 {
 }
 
 a { text-decoration : none; color : #FFF; }
-a:hover { color: rgba(128, 0, 32, 1);}
+a:hover { color: rgba(166, 25, 60, 1);}  
+/*http://www.99colors.net/hex/A6193C*/
 
 .toggle {
   text-decoration: none;
