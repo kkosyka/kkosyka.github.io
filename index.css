@@ -31,7 +31,7 @@ p{
 	font-size: 100px;
 	color: #FFF;
 }
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10, .bgimg-11,.bgimg-12 {
   position: relative;
   opacity: 1;
   background-attachment: fixed;
@@ -67,16 +67,35 @@ p{
 }
 
 .bgimg-6 {
-  background-image: url("images/moonWires.jpg");
+  background-image: url("images/yellowBikeRide.jpg");
   min-height: 105%;
 }
 
 .bgimg-7 {
-  background-image: url("images/yellowBikeRide.jpg");
+  background-image: url("images/moonWires.jpg");
   min-height: 105%;
 }
 .bgimg-8 {
   background-image: url("images/laundryReflection.jpg");
+  min-height: 105%;
+}
+
+.bgimg-9 {
+  background-image: url("images/bikeShop.jpg");
+  min-height: 105%;
+}
+
+.bgimg-10 {
+  background-image: url("images/climbingDown.jpg");
+  min-height: 105%;
+}
+
+.bgimg-11 {
+  background-image: url("images/chairs.jpg");
+  min-height: 105%;
+}
+.bgimg-12 {
+  background-image: url("images/lookingDown.jpg");
   min-height: 105%;
 }
 .caption {
@@ -112,7 +131,7 @@ h1 {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8  {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8,.bgimg-9, .bgimg-10, .bgimg-11,.bgimg-12  {
         background-attachment: scroll;
     }
 }
