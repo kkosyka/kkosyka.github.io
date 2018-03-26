@@ -38,21 +38,51 @@
 <section id="list">
   <div>
     <h1>List of Projects</h1>
-
+	  <p><a href="#campusDirectoryMap">Campus Directory Map</a></p>
       <p><a href="#smithCollegeMenu">Smith College Menu App</a></p>
       <p><a href="#droneGallery">Drone Gallery</a></p>
       <p><a href="#cyberHealthGIS">Detect Road Quality Research</a></p>
       <p><a href="#costumeCat">Costume Cat</a></p>
-      <a href="#droneGallery" class="downButton">
+      <a href="#campusDirectoryMap" class="downButton">
         <i class="fa fa-angle-double-down animated"></i>
       </a>
 
   </div>
 </section>
 
+
 <div class="bgimg-10">
   <div class="caption">
-    <div id="quote1"></div>
+    <div id="quote6"></div>
+  </div>
+</div>
+
+
+<section id="campusDirectoryMap">
+  <div>
+    <br/><br/><br/>
+    <h1><a href="https://github.com/kkosyka/CampusDirectoryMap" target="_blank">Campus Directory Map</a></h1>
+    <h2>October 2017 - Present</h2>
+    <p>(HTML, Javascript, SQL)</p>
+    <p>Currently, Smith College is going through renovation whcih results in many staff members to be relcoated. This application will allow user to query on name, departmnet, and person type(faculy, staff, student) from Smith College's directory. After querying, user will be directed to a page that contains a visualization of the location of members throughout Smith (ie mapping people's campus addresses that satisfy the query).Underneath the map, there is a list of people that satisfy the query in a list that display their information - name, address, department, and person type.</p>
+	<p>We hope in the near future to get this project embedded in Smith College's actual Campus Directory as an extension with visual aid of people's location on Smith.</p>
+
+    <!-- <a href="http://gph.is/2fYXKHC" target="_blank"><img src='https://media.giphy.com/media/3o7aCRxkd80t3fu9oI/giphy.gif' title='Video Demo' width='200px' alt='Video Demo'/></a>
+    <br/> -->
+    <a href="http://www.science.smith.edu/sal/2018/03/26/where-is-everybody-campus-directory-mapping/"> Blog post about experience</a>
+    <br/>
+    <a href="#smithCollegeMenu" class="downButton">
+      <i class="fa fa-angle-double-down animated"></i>
+    </a>
+    <br/>
+    <br/>
+
+  </div>
+</section>
+
+<div class="bgimg-10">
+  <div class="caption">
+    <div id="quote5"></div>
   </div>
 </div>
 
@@ -79,7 +109,7 @@
 
 <div class="bgimg-11">
   <div class="caption">
-    <div id="quote2"></div>
+    <div id="quote4"></div>
   </div>
 </div>
 
@@ -125,7 +155,7 @@
 
 <div class="bgimg-1">
   <div class="caption">
-    <div id="quote4"></div>
+    <div id="quote2"></div>
   </div>
 </div>
 
@@ -148,7 +178,7 @@
 
 <div class="bgimg-2">
   <div class="caption">
-    <div id="quote5"></div>
+    <div id="quote1"></div>
   </div>
 </div>
 
@@ -209,7 +239,7 @@
 
     randomQuote();
     function randomQuote(){
-      for(var i =1; i<6;i++){
+      for(var i =1; i<7;i++){
         var quote = quotes[Math.floor(Math.random() * quotes.length)];
         var id = "quote" + i.toString();
         document.getElementById(id).innerHTML = '<span >' + quote + '</span >';
